@@ -757,9 +757,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Core\\DemoAPI.Core.csproj",
-      "projectName": "DemoAPI.Core",
-      "projectPath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Core\\DemoAPI.Core.csproj",
+      "projectUniqueName": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Core\\DemoAPI.Domain.csproj",
+      "projectName": "DemoAPI.Domain",
+      "projectPath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Core\\DemoAPI.Domain.csproj",
       "packagesPath": "C:\\Users\\Mahmudul Hasan Rafi\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Core\\obj\\",
       "projectStyle": "PackageReference",

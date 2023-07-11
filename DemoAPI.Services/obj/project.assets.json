@@ -283,17 +283,17 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
-      "DemoAPI.Core/1.0.0": {
+      "DemoAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "MongoDB.Driver": "2.20.0"
         },
         "compile": {
-          "bin/placeholder/DemoAPI.Core.dll": {}
+          "bin/placeholder/DemoAPI.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DemoAPI.Core.dll": {}
+          "bin/placeholder/DemoAPI.Domain.dll": {}
         }
       }
     }
@@ -757,15 +757,15 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "DemoAPI.Core/1.0.0": {
+    "DemoAPI.Domain/1.0.0": {
       "type": "project",
-      "path": "../DemoAPI.Core/DemoAPI.Core.csproj",
-      "msbuildProject": "../DemoAPI.Core/DemoAPI.Core.csproj"
+      "path": "../DemoAPI.Core/DemoAPI.Domain.csproj",
+      "msbuildProject": "../DemoAPI.Core/DemoAPI.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DemoAPI.Core >= 1.0.0"
+      "DemoAPI.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -804,8 +804,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Core\\DemoAPI.Core.csproj": {
-              "projectPath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Core\\DemoAPI.Core.csproj"
+            "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Core\\DemoAPI.Domain.csproj": {
+              "projectPath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Core\\DemoAPI.Domain.csproj"
             }
           }
         }

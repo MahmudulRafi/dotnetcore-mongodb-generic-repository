@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAPI.Core", "DemoAPI.Core\DemoAPI.Core.csproj", "{AC035EF0-5695-4D0B-8C2B-E9A796A9AA2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAPI.Domain", "DemoAPI.Core\DemoAPI.Domain.csproj", "{AC035EF0-5695-4D0B-8C2B-E9A796A9AA2D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAPI.Infrastructure", "DemoAPI.Infrastructure\DemoAPI.Infrastructure.csproj", "{B82A31FE-2A97-42BC-8416-E6DDA807015A}"
 EndProject
