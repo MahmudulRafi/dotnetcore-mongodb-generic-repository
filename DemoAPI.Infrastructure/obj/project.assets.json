@@ -286,27 +286,11 @@
       "DemoAPI.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "DemoAPI.Domain": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/DemoAPI.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/DemoAPI.Application.dll": {}
-        }
-      },
-      "DemoAPI.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "MongoDB.Driver": "2.20.0"
-        },
-        "compile": {
-          "bin/placeholder/DemoAPI.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DemoAPI.Domain.dll": {}
         }
       }
     }
@@ -774,11 +758,6 @@
       "type": "project",
       "path": "../DemoAPI.Services/DemoAPI.Application.csproj",
       "msbuildProject": "../DemoAPI.Services/DemoAPI.Application.csproj"
-    },
-    "DemoAPI.Domain/1.0.0": {
-      "type": "project",
-      "path": "../DemoAPI.Core/DemoAPI.Domain.csproj",
-      "msbuildProject": "../DemoAPI.Core/DemoAPI.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
