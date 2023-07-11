@@ -1,0 +1,15 @@
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\bin\Debug\net6.0\DemoAPI.Application.deps.json
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\bin\Debug\net6.0\DemoAPI.Application.dll
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\bin\Debug\net6.0\DemoAPI.Application.pdb
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\bin\Debug\net6.0\DemoAPI.Core.dll
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\bin\Debug\net6.0\DemoAPI.Core.pdb
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\DemoAPI.Application.csproj.AssemblyReference.cache
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\DemoAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\DemoAPI.Application.AssemblyInfoInputs.cache
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\DemoAPI.Application.AssemblyInfo.cs
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\DemoAPI.Application.csproj.CoreCompileInputs.cache
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\DemoAPI.Application.csproj.CopyComplete
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\DemoAPI.Application.dll
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\refint\DemoAPI.Application.dll
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\DemoAPI.Application.pdb
+D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Services\obj\Debug\net6.0\ref\DemoAPI.Application.dll

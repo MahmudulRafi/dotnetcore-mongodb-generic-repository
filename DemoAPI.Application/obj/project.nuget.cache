@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ha8eRR9pd2oljKnikJLqNT18ENbZHsC5QRkRyePW7pyQp0fjCrcn6e6Me+GOEhYflyJbh73YtmqFg+lmcJE38A==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Application\\DemoAPI.Application.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.grapecity.com/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
