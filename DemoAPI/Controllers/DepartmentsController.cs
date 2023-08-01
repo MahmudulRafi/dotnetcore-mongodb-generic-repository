@@ -1,5 +1,5 @@
-﻿using DemoAPI.Core.Entities;
-using DemoAPI.Services.Intrefaces;
+﻿using DemoAPI.Domain.Entities;
+using DemoAPI.Application.Intrefaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MongoConnect.Controllers

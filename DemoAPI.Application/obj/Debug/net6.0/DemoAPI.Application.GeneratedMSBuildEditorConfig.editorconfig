@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DemoAPI.Application
-build_property.ProjectDir = D:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Application\
+build_property.ProjectDir = F:\Projects\dotnetcore-mongodb-generic-repository\DemoAPI.Application\

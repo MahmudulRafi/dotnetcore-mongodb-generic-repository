@@ -1,6 +1,6 @@
-﻿using DemoAPI.Core.Interfaces;
+﻿using DemoAPI.Domain.Interfaces;
 
-namespace DemoAPI.Core
+namespace DemoAPI.Domain
 {
     public class MongoConnectionSetting : IMongoConnectionSetting
     {

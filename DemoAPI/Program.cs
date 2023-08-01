@@ -1,10 +1,10 @@
-using DemoAPI.Core;
-using DemoAPI.Core.Interfaces;
+using DemoAPI.Domain.Interfaces;
 using DemoAPI.Infrastructure.Repositories;
-using DemoAPI.Services;
-using DemoAPI.Services.Intrefaces;
+using DemoAPI.Application.Intrefaces;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using DemoAPI.Domain;
+using DemoAPI.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 

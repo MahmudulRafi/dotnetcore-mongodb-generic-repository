@@ -1,13 +1,8 @@
-﻿using DemoAPI.Core.Entities;
-using DemoAPI.Core.Interfaces;
-using DemoAPI.Services.Intrefaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DemoAPI.Domain.Entities;
+using DemoAPI.Domain.Interfaces;
+using DemoAPI.Application.Intrefaces;
 
-namespace DemoAPI.Services
+namespace DemoAPI.Application
 {
     public class EmployeeService : IEmployeeService
     {

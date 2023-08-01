@@ -1,6 +1,6 @@
-﻿using DemoAPI.Core.Entities;
-using DemoAPI.Core.Extensions;
-using DemoAPI.Core.Interfaces;
+﻿using DemoAPI.Domain.Entities;
+using DemoAPI.Domain.Extensions;
+using DemoAPI.Domain.Interfaces;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
@@ -41,6 +41,7 @@ namespace DemoAPI.Infrastructure.Repositories
 
         public async Task<T> AddAsync(T document)
         {
+            document.CreatedDate = DateTime.Now;
             await _collection.InsertOneAsync(document);
             return document;
         }

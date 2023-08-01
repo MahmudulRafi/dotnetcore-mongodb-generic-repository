@@ -1,4 +1,4 @@
-﻿namespace DemoAPI.Core.Interfaces
+﻿namespace DemoAPI.Domain.Interfaces
 {
     public interface IMongoConnectionSetting
     {

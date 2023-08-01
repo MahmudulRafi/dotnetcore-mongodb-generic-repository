@@ -1,11 +1,6 @@
-﻿using DemoAPI.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DemoAPI.Domain.Entities;
 
-namespace DemoAPI.Services.Intrefaces
+namespace DemoAPI.Application.Intrefaces
 {
     public interface IDepartmentService
     {

@@ -373,6 +373,9 @@
       "DemoAPI.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DemoAPI.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DemoAPI.Application.dll": {}
         },
@@ -380,11 +383,24 @@
           "bin/placeholder/DemoAPI.Application.dll": {}
         }
       },
+      "DemoAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MongoDB.Driver": "2.20.0"
+        },
+        "compile": {
+          "bin/placeholder/DemoAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemoAPI.Domain.dll": {}
+        }
+      },
       "DemoAPI.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "DemoAPI.Application": "1.0.0",
+          "DemoAPI.Domain": "1.0.0",
           "MongoDB.Driver": "2.20.0"
         },
         "compile": {
@@ -1195,8 +1211,13 @@
     },
     "DemoAPI.Application/1.0.0": {
       "type": "project",
-      "path": "../DemoAPI.Services/DemoAPI.Application.csproj",
-      "msbuildProject": "../DemoAPI.Services/DemoAPI.Application.csproj"
+      "path": "../DemoAPI.Application/DemoAPI.Application.csproj",
+      "msbuildProject": "../DemoAPI.Application/DemoAPI.Application.csproj"
+    },
+    "DemoAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DemoAPI.Domain/DemoAPI.Domain.csproj",
+      "msbuildProject": "../DemoAPI.Domain/DemoAPI.Domain.csproj"
     },
     "DemoAPI.Infrastructure/1.0.0": {
       "type": "project",
@@ -1213,23 +1234,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mahmudul Hasan Rafi\\.nuget\\packages\\": {},
+    "C:\\Users\\H A S A N\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI\\DemoAPI.csproj",
+      "projectUniqueName": "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI\\DemoAPI.csproj",
       "projectName": "DemoAPI",
-      "projectPath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI\\DemoAPI.csproj",
-      "packagesPath": "C:\\Users\\Mahmudul Hasan Rafi\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI\\obj\\",
+      "projectPath": "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI\\DemoAPI.csproj",
+      "packagesPath": "C:\\Users\\H A S A N\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mahmudul Hasan Rafi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\H A S A N\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1240,8 +1261,6 @@
       "sources": {
         "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -1249,11 +1268,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Infrastructure\\DemoAPI.Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Infrastructure\\DemoAPI.Infrastructure.csproj"
+            "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Application\\DemoAPI.Application.csproj": {
+              "projectPath": "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Application\\DemoAPI.Application.csproj"
             },
-            "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Services\\DemoAPI.Application.csproj": {
-              "projectPath": "D:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Services\\DemoAPI.Application.csproj"
+            "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Infrastructure\\DemoAPI.Infrastructure.csproj": {
+              "projectPath": "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Infrastructure\\DemoAPI.Infrastructure.csproj"
             }
           }
         }
@@ -1296,7 +1315,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },

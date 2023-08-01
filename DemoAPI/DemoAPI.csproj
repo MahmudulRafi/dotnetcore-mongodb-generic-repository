@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DemoAPI.Application\DemoAPI.Application.csproj" />
     <ProjectReference Include="..\DemoAPI.Infrastructure\DemoAPI.Infrastructure.csproj" />
-    <ProjectReference Include="..\DemoAPI.Services\DemoAPI.Application.csproj" />
   </ItemGroup>
 
 </Project>

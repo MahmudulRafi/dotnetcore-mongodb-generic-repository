@@ -1,6 +1,6 @@
-﻿using DemoAPI.Core.Entities;
+﻿using DemoAPI.Domain.Entities;
 
-namespace DemoAPI.Core.Interfaces
+namespace DemoAPI.Domain.Interfaces
 {
     public interface IDepartmentRepository : IBaseRepository<Department>
     {

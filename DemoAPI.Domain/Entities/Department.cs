@@ -1,8 +1,8 @@
-﻿using DemoAPI.Core.Extensions;
+﻿using DemoAPI.Domain.Extensions;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace DemoAPI.Core.Entities
+namespace DemoAPI.Domain.Entities
 {
     [BsonCollection("Departments")]
     [BsonDatabase("EmployeeDB")]

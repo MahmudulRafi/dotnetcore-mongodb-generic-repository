@@ -1,4 +1,4 @@
-﻿namespace DemoAPI.Core.Extensions
+﻿namespace DemoAPI.Domain.Extensions
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class BsonCollectionAttribute : Attribute

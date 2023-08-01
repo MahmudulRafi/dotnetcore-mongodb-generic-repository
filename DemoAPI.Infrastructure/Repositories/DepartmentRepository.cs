@@ -1,6 +1,6 @@
 ﻿
-using DemoAPI.Core.Entities;
-using DemoAPI.Core.Interfaces;
+using DemoAPI.Domain.Entities;
+using DemoAPI.Domain.Interfaces;
 using MongoDB.Driver;
 
 namespace DemoAPI.Infrastructure.Repositories
