@@ -4,7 +4,7 @@ namespace DemoAPI.Application.Intrefaces
 {
     public interface IDepartmentService
     {
-        Task<IList<Department>> GetDepartments();
+        Task<List<Department>> GetDepartments();
         Task<Department> GetDepartmentById(string Id);
         Task<Department> AddDepartment(Department department);
     }

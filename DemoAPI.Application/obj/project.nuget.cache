@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cR2bhePOdy+ZQh/RGaQp95aJCSNK9ekwT89igmrcRWCOnwYUubJJAAQN3lBclHSV/nEAqm7PjuSECRelJWOqNg==",
+  "dgSpecHash": "8fk/g0AYENa3Pk98qP150+dN9X1SmSEVJFLkJ4AIDKcrV/C13Vado/Ef1Xp5uCsxSSb3OhZN3Vj7q5EWVVySiA==",
   "success": true,
   "projectFilePath": "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Application\\DemoAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\H A S A N\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\H A S A N\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\H A S A N\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\H A S A N\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\H A S A N\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\H A S A N\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\H A S A N\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

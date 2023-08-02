@@ -1,6 +1,7 @@
 ﻿using DemoAPI.Domain.Entities;
 using DemoAPI.Domain.Extensions;
 using DemoAPI.Domain.Interfaces;
+using DemoAPI.Infrastructure.Data;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
@@ -9,10 +10,9 @@ namespace DemoAPI.Infrastructure.Repositories
     public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
     {
         private readonly IMongoCollection<T> _collection;
-        public BaseRepository(string connectionString)
+        public BaseRepository(MongoDbContext mongoDbContext)
         {
-            MongoClient mongoClient = new(connectionString);
-            var mongoDatabaseBase = mongoClient.GetDatabase(GetDatabaseName(typeof(T)));
+            var mongoDatabaseBase = mongoDbContext.GetDatabase(GetDatabaseName(typeof(T)));
             _collection = mongoDatabaseBase.GetCollection<T>(GetCollectionName(typeof(T)));
         }
         private protected string GetCollectionName(Type documentType)
@@ -28,7 +28,7 @@ namespace DemoAPI.Infrastructure.Repositories
                    .FirstOrDefault())?.DatabaseName;
         }
 
-        public async Task<IList<T>> GetAllAsync()
+        public async Task<List<T>> GetAllAsync()
         {
             return await _collection.Find(a => true).ToListAsync();
         }

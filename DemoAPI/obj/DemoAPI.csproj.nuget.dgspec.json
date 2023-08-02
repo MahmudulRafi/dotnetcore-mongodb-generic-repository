@@ -50,6 +50,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -169,8 +175,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Domain\\DemoAPI.Domain.csproj": {
-                "projectPath": "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Domain\\DemoAPI.Domain.csproj"
+              "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Application\\DemoAPI.Application.csproj": {
+                "projectPath": "F:\\Projects\\dotnetcore-mongodb-generic-repository\\DemoAPI.Application\\DemoAPI.Application.csproj"
               }
             }
           }
@@ -185,6 +191,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.20.0, )"

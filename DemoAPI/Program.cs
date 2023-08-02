@@ -5,6 +5,7 @@ using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using DemoAPI.Domain;
 using DemoAPI.Application;
+using DemoAPI.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,11 +15,9 @@ builder.Services.Configure<MongoConnectionSetting>(builder.Configuration.GetSect
 builder.Services.AddSingleton<IMongoConnectionSetting>(sp => sp.GetRequiredService<IOptions<MongoConnectionSetting>>().Value);
 builder.Services.AddSingleton<IMongoClient>(s => new MongoClient(builder.Configuration.GetValue<string>("MongoConnectionSetting:ConnectionString")));
 
-builder.Services.AddScoped<IEmployeeRepository>(e => new EmployeeRepository(builder.Configuration.GetValue<string>("MongoConnectionSetting:ConnectionString")));
-builder.Services.AddScoped<IDepartmentRepository>(e => new DepartmentRepository(builder.Configuration.GetValue<string>("MongoConnectionSetting:ConnectionString")));
-
-builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+builder.Services
+    .AddApplicationServices()
+    .AddApplicationInfrastructure(builder.Configuration);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
